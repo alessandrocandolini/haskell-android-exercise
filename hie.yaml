@@ -1,0 +1,14 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "haskell-android-exercise:lib"
+
+    - path: "./app/Main.hs"
+      component: "haskell-android-exercise:exe:haskell-android-exercise-exe"
+
+    - path: "./app/Paths_haskell_toy_example.hs"
+      component: "haskell-android-exercise:exe:haskell-android-exercise-exe"
+
+    - path: "./test"
+      component: "haskell-android-exercise:test:haskell-android-exercise-test"
+
